@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import re
 
-class ProspektParser:
+class LeafletsParser:
     BASE_URL = "https://www.prospektmaschine.de/"
 
     def __init__(self):
@@ -84,5 +84,5 @@ class ProspektParser:
     
 
 if __name__ == "__main__":
-    parser = ProspektParser()
+    parser = LeafletsParser()
     parser.run()
